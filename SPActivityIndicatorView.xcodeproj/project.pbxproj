@@ -15,6 +15,46 @@
 		52AF608A2195911C00232132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60892195911C00232132 /* main.m */; };
 		52AF60942195911C00232132 /* SPActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60932195911C00232132 /* SPActivityIndicatorViewTests.m */; };
 		52AF609F2195911C00232132 /* SPActivityIndicatorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF609E2195911C00232132 /* SPActivityIndicatorViewUITests.m */; };
+		52AF60FB2195917400232132 /* SPActivityIndicatorLineScalePulseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60AD2195917300232132 /* SPActivityIndicatorLineScalePulseOutAnimation.m */; };
+		52AF60FC2195917400232132 /* SPActivityIndicatorBallClipRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60AF2195917300232132 /* SPActivityIndicatorBallClipRotateAnimation.m */; };
+		52AF60FD2195917400232132 /* SPActivityIndicatorTriangleSkewSpinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60B02195917300232132 /* SPActivityIndicatorTriangleSkewSpinAnimation.m */; };
+		52AF60FE2195917400232132 /* SPActivityIndicatorRotatingTrigonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60B12195917300232132 /* SPActivityIndicatorRotatingTrigonAnimation.m */; };
+		52AF60FF2195917400232132 /* SPActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60B32195917300232132 /* SPActivityIndicatorBallScaleAnimation.m */; };
+		52AF61002195917400232132 /* SPActivityIndicatorBallPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60B52195917300232132 /* SPActivityIndicatorBallPulseAnimation.m */; };
+		52AF61012195917400232132 /* SPActivityIndicator3DotsExchangePositionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60B62195917300232132 /* SPActivityIndicator3DotsExchangePositionAnimation.m */; };
+		52AF61022195917400232132 /* SPActivityIndicatorBallScaleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60B72195917300232132 /* SPActivityIndicatorBallScaleMultipleAnimation.m */; };
+		52AF61032195917400232132 /* SPActivityIndicatorLineScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60BF2195917300232132 /* SPActivityIndicatorLineScaleAnimation.m */; };
+		52AF61042195917400232132 /* SPActivityIndicatorTriplePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60C12195917300232132 /* SPActivityIndicatorTriplePulseAnimation.m */; };
+		52AF61052195917400232132 /* SPActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60C52195917300232132 /* SPActivityIndicatorBallScaleRippleAnimation.m */; };
+		52AF61062195917400232132 /* SPActivityIndicatorRotatingSquaresAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60C62195917300232132 /* SPActivityIndicatorRotatingSquaresAnimation.m */; };
+		52AF61072195917400232132 /* SPActivityIndicatorBallGridBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60C82195917300232132 /* SPActivityIndicatorBallGridBeatAnimation.m */; };
+		52AF61082195917400232132 /* SPActivityIndicatorLoadingFailAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60CC2195917300232132 /* SPActivityIndicatorLoadingFailAnimation.m */; };
+		52AF61092195917400232132 /* SPActivityIndicatorBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60CD2195917300232132 /* SPActivityIndicatorBallSpinFadeLoader.m */; };
+		52AF610A2195917400232132 /* SPActivityIndicatorBallGridPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60CE2195917300232132 /* SPActivityIndicatorBallGridPulseAnimation.m */; };
+		52AF610B2195917400232132 /* SPActivityIndicatorCookieTerminatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60CF2195917300232132 /* SPActivityIndicatorCookieTerminatorAnimation.m */; };
+		52AF610C2195917400232132 /* SPActivityIndicatorTripleRingsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60D12195917300232132 /* SPActivityIndicatorTripleRingsAnimation.m */; };
+		52AF610D2195917400232132 /* SPActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60D22195917300232132 /* SPActivityIndicatorAnimation.m */; };
+		52AF610E2195917400232132 /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60D32195917300232132 /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m */; };
+		52AF610F2195917400232132 /* SPActivityIndicatorLineScalePartyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60D62195917300232132 /* SPActivityIndicatorLineScalePartyAnimation.m */; };
+		52AF61102195917400232132 /* SPActivityIndicatorBallBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60D72195917300232132 /* SPActivityIndicatorBallBeatAnimation.m */; };
+		52AF61112195917400232132 /* SPActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60DC2195917300232132 /* SPActivityIndicatorTwoDotsAnimation.m */; };
+		52AF61122195917400232132 /* SPActivityIndicatorBallTrianglePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60DF2195917300232132 /* SPActivityIndicatorBallTrianglePathAnimation.m */; };
+		52AF61132195917400232132 /* SPActivityIndicatorLoadingSuccessAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60E02195917300232132 /* SPActivityIndicatorLoadingSuccessAnimation.m */; };
+		52AF61142195917400232132 /* SPActivityIndicatorDoubleBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60E12195917300232132 /* SPActivityIndicatorDoubleBounceAnimation.m */; };
+		52AF61152195917400232132 /* SPActivityIndicatorRotatingSandglassAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60E22195917300232132 /* SPActivityIndicatorRotatingSandglassAnimation.m */; };
+		52AF61162195917400232132 /* SPActivityIndicatorBallClipRotatePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60E32195917300232132 /* SPActivityIndicatorBallClipRotatePulseAnimation.m */; };
+		52AF61172195917400232132 /* SPActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60E42195917400232132 /* SPActivityIndicatorLineScalePulseOutRapidAnimation.m */; };
+		52AF61182195917400232132 /* SPActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60E52195917400232132 /* SPActivityIndicatorBallZigZagDeflectAnimation.m */; };
+		52AF61192195917400232132 /* SPActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60E82195917400232132 /* SPActivityIndicatorBallClipRotateMultipleAnimation.m */; };
+		52AF611A2195917400232132 /* SPActivityIndicatorBallRotaingAroundBallAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60EB2195917400232132 /* SPActivityIndicatorBallRotaingAroundBallAnimation.m */; };
+		52AF611B2195917400232132 /* SPActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60EC2195917400232132 /* SPActivityIndicatorThreeDotsAnimation.m */; };
+		52AF611C2195917400232132 /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60ED2195917400232132 /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m */; };
+		52AF611D2195917400232132 /* SPActivityIndicatorBallRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60EF2195917400232132 /* SPActivityIndicatorBallRotateAnimation.m */; };
+		52AF611E2195917400232132 /* SPActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60F22195917400232132 /* SPActivityIndicatorBallZigZagAnimation.m */; };
+		52AF611F2195917400232132 /* SPActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60F82195917400232132 /* SPActivityIndicatorFiveDotsAnimation.m */; };
+		52AF61202195917400232132 /* SPActivityIndicatorBallPulseSyncAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60F92195917400232132 /* SPActivityIndicatorBallPulseSyncAnimation.m */; };
+		52AF61212195917400232132 /* SPActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF60FA2195917400232132 /* SPActivityIndicatorNineDotsAnimation.m */; };
+		52AF6124219591B400232132 /* SPActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AF6123219591B400232132 /* SPActivityIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +91,87 @@
 		52AF609A2195911C00232132 /* SPActivityIndicatorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPActivityIndicatorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AF609E2195911C00232132 /* SPActivityIndicatorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorViewUITests.m; sourceTree = "<group>"; };
 		52AF60A02195911C00232132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AF60AD2195917300232132 /* SPActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
+		52AF60AE2195917300232132 /* SPActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
+		52AF60AF2195917300232132 /* SPActivityIndicatorBallClipRotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallClipRotateAnimation.m; sourceTree = "<group>"; };
+		52AF60B02195917300232132 /* SPActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
+		52AF60B12195917300232132 /* SPActivityIndicatorRotatingTrigonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorRotatingTrigonAnimation.m; sourceTree = "<group>"; };
+		52AF60B22195917300232132 /* SPActivityIndicatorLineScalePartyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorLineScalePartyAnimation.h; sourceTree = "<group>"; };
+		52AF60B32195917300232132 /* SPActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
+		52AF60B42195917300232132 /* SPActivityIndicatorBallBeatAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallBeatAnimation.h; sourceTree = "<group>"; };
+		52AF60B52195917300232132 /* SPActivityIndicatorBallPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallPulseAnimation.m; sourceTree = "<group>"; };
+		52AF60B62195917300232132 /* SPActivityIndicator3DotsExchangePositionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicator3DotsExchangePositionAnimation.m; sourceTree = "<group>"; };
+		52AF60B72195917300232132 /* SPActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
+		52AF60B82195917300232132 /* SPActivityIndicatorLineScalePulseOutRapidAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorLineScalePulseOutRapidAnimation.h; sourceTree = "<group>"; };
+		52AF60B92195917300232132 /* SPActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
+		52AF60BA2195917300232132 /* SPActivityIndicatorBallClipRotatePulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallClipRotatePulseAnimation.h; sourceTree = "<group>"; };
+		52AF60BB2195917300232132 /* SPActivityIndicatorRotatingSandglassAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorRotatingSandglassAnimation.h; sourceTree = "<group>"; };
+		52AF60BC2195917300232132 /* SPActivityIndicatorLoadingSuccessAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorLoadingSuccessAnimation.h; sourceTree = "<group>"; };
+		52AF60BD2195917300232132 /* SPActivityIndicatorDoubleBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorDoubleBounceAnimation.h; sourceTree = "<group>"; };
+		52AF60BE2195917300232132 /* SPActivityIndicatorBallTrianglePathAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallTrianglePathAnimation.h; sourceTree = "<group>"; };
+		52AF60BF2195917300232132 /* SPActivityIndicatorLineScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorLineScaleAnimation.m; sourceTree = "<group>"; };
+		52AF60C02195917300232132 /* SPActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
+		52AF60C12195917300232132 /* SPActivityIndicatorTriplePulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorTriplePulseAnimation.m; sourceTree = "<group>"; };
+		52AF60C22195917300232132 /* SPActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
+		52AF60C32195917300232132 /* SPActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+		52AF60C42195917300232132 /* SPActivityIndicatorBallRotaingAroundBallAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallRotaingAroundBallAnimation.h; sourceTree = "<group>"; };
+		52AF60C52195917300232132 /* SPActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
+		52AF60C62195917300232132 /* SPActivityIndicatorRotatingSquaresAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorRotatingSquaresAnimation.m; sourceTree = "<group>"; };
+		52AF60C72195917300232132 /* SPActivityIndicatorBallClipRotateMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallClipRotateMultipleAnimation.h; sourceTree = "<group>"; };
+		52AF60C82195917300232132 /* SPActivityIndicatorBallGridBeatAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallGridBeatAnimation.m; sourceTree = "<group>"; };
+		52AF60C92195917300232132 /* SPActivityIndicatorNineDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorNineDotsAnimation.h; sourceTree = "<group>"; };
+		52AF60CA2195917300232132 /* SPActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
+		52AF60CB2195917300232132 /* SPActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
+		52AF60CC2195917300232132 /* SPActivityIndicatorLoadingFailAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorLoadingFailAnimation.m; sourceTree = "<group>"; };
+		52AF60CD2195917300232132 /* SPActivityIndicatorBallSpinFadeLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallSpinFadeLoader.m; sourceTree = "<group>"; };
+		52AF60CE2195917300232132 /* SPActivityIndicatorBallGridPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallGridPulseAnimation.m; sourceTree = "<group>"; };
+		52AF60CF2195917300232132 /* SPActivityIndicatorCookieTerminatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorCookieTerminatorAnimation.m; sourceTree = "<group>"; };
+		52AF60D02195917300232132 /* SPActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
+		52AF60D12195917300232132 /* SPActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
+		52AF60D22195917300232132 /* SPActivityIndicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorAnimation.m; sourceTree = "<group>"; };
+		52AF60D32195917300232132 /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorRotaingCurveEaseOutAnimation.m; sourceTree = "<group>"; };
+		52AF60D42195917300232132 /* SPActivityIndicatorBallPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallPulseAnimation.h; sourceTree = "<group>"; };
+		52AF60D52195917300232132 /* SPActivityIndicator3DotsExchangePositionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicator3DotsExchangePositionAnimation.h; sourceTree = "<group>"; };
+		52AF60D62195917300232132 /* SPActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
+		52AF60D72195917300232132 /* SPActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
+		52AF60D82195917300232132 /* SPActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
+		52AF60D92195917300232132 /* SPActivityIndicatorRotatingTrigonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorRotatingTrigonAnimation.h; sourceTree = "<group>"; };
+		52AF60DA2195917300232132 /* SPActivityIndicatorTriangleSkewSpinAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorTriangleSkewSpinAnimation.h; sourceTree = "<group>"; };
+		52AF60DB2195917300232132 /* SPActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
+		52AF60DC2195917300232132 /* SPActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
+		52AF60DD2195917300232132 /* SPActivityIndicatorLineScalePulseOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorLineScalePulseOutAnimation.h; sourceTree = "<group>"; };
+		52AF60DE2195917300232132 /* SPActivityIndicatorLineScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorLineScaleAnimation.h; sourceTree = "<group>"; };
+		52AF60DF2195917300232132 /* SPActivityIndicatorBallTrianglePathAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallTrianglePathAnimation.m; sourceTree = "<group>"; };
+		52AF60E02195917300232132 /* SPActivityIndicatorLoadingSuccessAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorLoadingSuccessAnimation.m; sourceTree = "<group>"; };
+		52AF60E12195917300232132 /* SPActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
+		52AF60E22195917300232132 /* SPActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
+		52AF60E32195917300232132 /* SPActivityIndicatorBallClipRotatePulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallClipRotatePulseAnimation.m; sourceTree = "<group>"; };
+		52AF60E42195917400232132 /* SPActivityIndicatorLineScalePulseOutRapidAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorLineScalePulseOutRapidAnimation.m; sourceTree = "<group>"; };
+		52AF60E52195917400232132 /* SPActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
+		52AF60E62195917400232132 /* SPActivityIndicatorBallScaleMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallScaleMultipleAnimation.h; sourceTree = "<group>"; };
+		52AF60E72195917400232132 /* SPActivityIndicatorBallGridBeatAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallGridBeatAnimation.h; sourceTree = "<group>"; };
+		52AF60E82195917400232132 /* SPActivityIndicatorBallClipRotateMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallClipRotateMultipleAnimation.m; sourceTree = "<group>"; };
+		52AF60E92195917400232132 /* SPActivityIndicatorRotatingSquaresAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorRotatingSquaresAnimation.h; sourceTree = "<group>"; };
+		52AF60EA2195917400232132 /* SPActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
+		52AF60EB2195917400232132 /* SPActivityIndicatorBallRotaingAroundBallAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallRotaingAroundBallAnimation.m; sourceTree = "<group>"; };
+		52AF60EC2195917400232132 /* SPActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
+		52AF60ED2195917400232132 /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallScaleRippleMultipleAnimation.m; sourceTree = "<group>"; };
+		52AF60EE2195917400232132 /* SPActivityIndicatorTriplePulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorTriplePulseAnimation.h; sourceTree = "<group>"; };
+		52AF60EF2195917400232132 /* SPActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
+		52AF60F02195917400232132 /* SPActivityIndicatorRotaingCurveEaseOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorRotaingCurveEaseOutAnimation.h; sourceTree = "<group>"; };
+		52AF60F12195917400232132 /* SPActivityIndicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorAnimation.h; sourceTree = "<group>"; };
+		52AF60F22195917400232132 /* SPActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
+		52AF60F32195917400232132 /* SPActivityIndicatorTripleRingsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorTripleRingsAnimation.h; sourceTree = "<group>"; };
+		52AF60F42195917400232132 /* SPActivityIndicatorCookieTerminatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorCookieTerminatorAnimation.h; sourceTree = "<group>"; };
+		52AF60F52195917400232132 /* SPActivityIndicatorBallGridPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallGridPulseAnimation.h; sourceTree = "<group>"; };
+		52AF60F62195917400232132 /* SPActivityIndicatorBallSpinFadeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorBallSpinFadeLoader.h; sourceTree = "<group>"; };
+		52AF60F72195917400232132 /* SPActivityIndicatorLoadingFailAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorLoadingFailAnimation.h; sourceTree = "<group>"; };
+		52AF60F82195917400232132 /* SPActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		52AF60F92195917400232132 /* SPActivityIndicatorBallPulseSyncAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorBallPulseSyncAnimation.m; sourceTree = "<group>"; };
+		52AF60FA2195917400232132 /* SPActivityIndicatorNineDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorNineDotsAnimation.m; sourceTree = "<group>"; };
+		52AF6122219591B300232132 /* SPActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorView.h; sourceTree = "<group>"; };
+		52AF6123219591B400232132 /* SPActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorView.m; sourceTree = "<group>"; };
+		52AF6125219592C400232132 /* SPActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +222,14 @@
 		52AF60792195911A00232132 /* SPActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
+				52AF60AC2195917300232132 /* Animations */,
 				52AF607A2195911A00232132 /* AppDelegate.h */,
 				52AF607B2195911A00232132 /* AppDelegate.m */,
 				52AF607D2195911A00232132 /* ViewController.h */,
 				52AF607E2195911A00232132 /* ViewController.m */,
+				52AF6122219591B300232132 /* SPActivityIndicatorView.h */,
+				52AF6123219591B400232132 /* SPActivityIndicatorView.m */,
+				52AF6125219592C400232132 /* SPActivityIndicatorAnimationProtocol.h */,
 				52AF60802195911A00232132 /* Main.storyboard */,
 				52AF60832195911C00232132 /* Assets.xcassets */,
 				52AF60852195911C00232132 /* LaunchScreen.storyboard */,
@@ -130,6 +255,91 @@
 				52AF60A02195911C00232132 /* Info.plist */,
 			);
 			path = SPActivityIndicatorViewUITests;
+			sourceTree = "<group>";
+		};
+		52AF60AC2195917300232132 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				52AF60D52195917300232132 /* SPActivityIndicator3DotsExchangePositionAnimation.h */,
+				52AF60B62195917300232132 /* SPActivityIndicator3DotsExchangePositionAnimation.m */,
+				52AF60F12195917400232132 /* SPActivityIndicatorAnimation.h */,
+				52AF60D22195917300232132 /* SPActivityIndicatorAnimation.m */,
+				52AF60B42195917300232132 /* SPActivityIndicatorBallBeatAnimation.h */,
+				52AF60D72195917300232132 /* SPActivityIndicatorBallBeatAnimation.m */,
+				52AF60DB2195917300232132 /* SPActivityIndicatorBallClipRotateAnimation.h */,
+				52AF60AF2195917300232132 /* SPActivityIndicatorBallClipRotateAnimation.m */,
+				52AF60C72195917300232132 /* SPActivityIndicatorBallClipRotateMultipleAnimation.h */,
+				52AF60E82195917400232132 /* SPActivityIndicatorBallClipRotateMultipleAnimation.m */,
+				52AF60BA2195917300232132 /* SPActivityIndicatorBallClipRotatePulseAnimation.h */,
+				52AF60E32195917300232132 /* SPActivityIndicatorBallClipRotatePulseAnimation.m */,
+				52AF60E72195917400232132 /* SPActivityIndicatorBallGridBeatAnimation.h */,
+				52AF60C82195917300232132 /* SPActivityIndicatorBallGridBeatAnimation.m */,
+				52AF60F52195917400232132 /* SPActivityIndicatorBallGridPulseAnimation.h */,
+				52AF60CE2195917300232132 /* SPActivityIndicatorBallGridPulseAnimation.m */,
+				52AF60D42195917300232132 /* SPActivityIndicatorBallPulseAnimation.h */,
+				52AF60B52195917300232132 /* SPActivityIndicatorBallPulseAnimation.m */,
+				52AF60CB2195917300232132 /* SPActivityIndicatorBallPulseSyncAnimation.h */,
+				52AF60F92195917400232132 /* SPActivityIndicatorBallPulseSyncAnimation.m */,
+				52AF60C42195917300232132 /* SPActivityIndicatorBallRotaingAroundBallAnimation.h */,
+				52AF60EB2195917400232132 /* SPActivityIndicatorBallRotaingAroundBallAnimation.m */,
+				52AF60C02195917300232132 /* SPActivityIndicatorBallRotateAnimation.h */,
+				52AF60EF2195917400232132 /* SPActivityIndicatorBallRotateAnimation.m */,
+				52AF60D82195917300232132 /* SPActivityIndicatorBallScaleAnimation.h */,
+				52AF60B32195917300232132 /* SPActivityIndicatorBallScaleAnimation.m */,
+				52AF60E62195917400232132 /* SPActivityIndicatorBallScaleMultipleAnimation.h */,
+				52AF60B72195917300232132 /* SPActivityIndicatorBallScaleMultipleAnimation.m */,
+				52AF60EA2195917400232132 /* SPActivityIndicatorBallScaleRippleAnimation.h */,
+				52AF60C52195917300232132 /* SPActivityIndicatorBallScaleRippleAnimation.m */,
+				52AF60C22195917300232132 /* SPActivityIndicatorBallScaleRippleMultipleAnimation.h */,
+				52AF60ED2195917400232132 /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m */,
+				52AF60F62195917400232132 /* SPActivityIndicatorBallSpinFadeLoader.h */,
+				52AF60CD2195917300232132 /* SPActivityIndicatorBallSpinFadeLoader.m */,
+				52AF60BE2195917300232132 /* SPActivityIndicatorBallTrianglePathAnimation.h */,
+				52AF60DF2195917300232132 /* SPActivityIndicatorBallTrianglePathAnimation.m */,
+				52AF60D02195917300232132 /* SPActivityIndicatorBallZigZagAnimation.h */,
+				52AF60F22195917400232132 /* SPActivityIndicatorBallZigZagAnimation.m */,
+				52AF60B92195917300232132 /* SPActivityIndicatorBallZigZagDeflectAnimation.h */,
+				52AF60E52195917400232132 /* SPActivityIndicatorBallZigZagDeflectAnimation.m */,
+				52AF60F42195917400232132 /* SPActivityIndicatorCookieTerminatorAnimation.h */,
+				52AF60CF2195917300232132 /* SPActivityIndicatorCookieTerminatorAnimation.m */,
+				52AF60BD2195917300232132 /* SPActivityIndicatorDoubleBounceAnimation.h */,
+				52AF60E12195917300232132 /* SPActivityIndicatorDoubleBounceAnimation.m */,
+				52AF60CA2195917300232132 /* SPActivityIndicatorFiveDotsAnimation.h */,
+				52AF60F82195917400232132 /* SPActivityIndicatorFiveDotsAnimation.m */,
+				52AF60DE2195917300232132 /* SPActivityIndicatorLineScaleAnimation.h */,
+				52AF60BF2195917300232132 /* SPActivityIndicatorLineScaleAnimation.m */,
+				52AF60B22195917300232132 /* SPActivityIndicatorLineScalePartyAnimation.h */,
+				52AF60D62195917300232132 /* SPActivityIndicatorLineScalePartyAnimation.m */,
+				52AF60DD2195917300232132 /* SPActivityIndicatorLineScalePulseOutAnimation.h */,
+				52AF60AD2195917300232132 /* SPActivityIndicatorLineScalePulseOutAnimation.m */,
+				52AF60B82195917300232132 /* SPActivityIndicatorLineScalePulseOutRapidAnimation.h */,
+				52AF60E42195917400232132 /* SPActivityIndicatorLineScalePulseOutRapidAnimation.m */,
+				52AF60F72195917400232132 /* SPActivityIndicatorLoadingFailAnimation.h */,
+				52AF60CC2195917300232132 /* SPActivityIndicatorLoadingFailAnimation.m */,
+				52AF60BC2195917300232132 /* SPActivityIndicatorLoadingSuccessAnimation.h */,
+				52AF60E02195917300232132 /* SPActivityIndicatorLoadingSuccessAnimation.m */,
+				52AF60C92195917300232132 /* SPActivityIndicatorNineDotsAnimation.h */,
+				52AF60FA2195917400232132 /* SPActivityIndicatorNineDotsAnimation.m */,
+				52AF60F02195917400232132 /* SPActivityIndicatorRotaingCurveEaseOutAnimation.h */,
+				52AF60D32195917300232132 /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m */,
+				52AF60BB2195917300232132 /* SPActivityIndicatorRotatingSandglassAnimation.h */,
+				52AF60E22195917300232132 /* SPActivityIndicatorRotatingSandglassAnimation.m */,
+				52AF60E92195917400232132 /* SPActivityIndicatorRotatingSquaresAnimation.h */,
+				52AF60C62195917300232132 /* SPActivityIndicatorRotatingSquaresAnimation.m */,
+				52AF60D92195917300232132 /* SPActivityIndicatorRotatingTrigonAnimation.h */,
+				52AF60B12195917300232132 /* SPActivityIndicatorRotatingTrigonAnimation.m */,
+				52AF60C32195917300232132 /* SPActivityIndicatorThreeDotsAnimation.h */,
+				52AF60EC2195917400232132 /* SPActivityIndicatorThreeDotsAnimation.m */,
+				52AF60DA2195917300232132 /* SPActivityIndicatorTriangleSkewSpinAnimation.h */,
+				52AF60B02195917300232132 /* SPActivityIndicatorTriangleSkewSpinAnimation.m */,
+				52AF60EE2195917400232132 /* SPActivityIndicatorTriplePulseAnimation.h */,
+				52AF60C12195917300232132 /* SPActivityIndicatorTriplePulseAnimation.m */,
+				52AF60F32195917400232132 /* SPActivityIndicatorTripleRingsAnimation.h */,
+				52AF60D12195917300232132 /* SPActivityIndicatorTripleRingsAnimation.m */,
+				52AF60AE2195917300232132 /* SPActivityIndicatorTwoDotsAnimation.h */,
+				52AF60DC2195917300232132 /* SPActivityIndicatorTwoDotsAnimation.m */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +472,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AF60FD2195917400232132 /* SPActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
+				52AF61112195917400232132 /* SPActivityIndicatorTwoDotsAnimation.m in Sources */,
+				52AF611D2195917400232132 /* SPActivityIndicatorBallRotateAnimation.m in Sources */,
+				52AF60FC2195917400232132 /* SPActivityIndicatorBallClipRotateAnimation.m in Sources */,
+				52AF61082195917400232132 /* SPActivityIndicatorLoadingFailAnimation.m in Sources */,
+				52AF610E2195917400232132 /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m in Sources */,
+				52AF61012195917400232132 /* SPActivityIndicator3DotsExchangePositionAnimation.m in Sources */,
+				52AF610D2195917400232132 /* SPActivityIndicatorAnimation.m in Sources */,
+				52AF61202195917400232132 /* SPActivityIndicatorBallPulseSyncAnimation.m in Sources */,
+				52AF61032195917400232132 /* SPActivityIndicatorLineScaleAnimation.m in Sources */,
+				52AF61042195917400232132 /* SPActivityIndicatorTriplePulseAnimation.m in Sources */,
+				52AF611F2195917400232132 /* SPActivityIndicatorFiveDotsAnimation.m in Sources */,
+				52AF61182195917400232132 /* SPActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
+				52AF60FF2195917400232132 /* SPActivityIndicatorBallScaleAnimation.m in Sources */,
+				52AF61002195917400232132 /* SPActivityIndicatorBallPulseAnimation.m in Sources */,
+				52AF60FB2195917400232132 /* SPActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
+				52AF610B2195917400232132 /* SPActivityIndicatorCookieTerminatorAnimation.m in Sources */,
+				52AF610F2195917400232132 /* SPActivityIndicatorLineScalePartyAnimation.m in Sources */,
 				52AF607F2195911A00232132 /* ViewController.m in Sources */,
+				52AF61022195917400232132 /* SPActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
+				52AF61092195917400232132 /* SPActivityIndicatorBallSpinFadeLoader.m in Sources */,
 				52AF608A2195911C00232132 /* main.m in Sources */,
+				52AF61062195917400232132 /* SPActivityIndicatorRotatingSquaresAnimation.m in Sources */,
+				52AF61132195917400232132 /* SPActivityIndicatorLoadingSuccessAnimation.m in Sources */,
+				52AF60FE2195917400232132 /* SPActivityIndicatorRotatingTrigonAnimation.m in Sources */,
+				52AF611A2195917400232132 /* SPActivityIndicatorBallRotaingAroundBallAnimation.m in Sources */,
+				52AF61142195917400232132 /* SPActivityIndicatorDoubleBounceAnimation.m in Sources */,
+				52AF61052195917400232132 /* SPActivityIndicatorBallScaleRippleAnimation.m in Sources */,
 				52AF607C2195911A00232132 /* AppDelegate.m in Sources */,
+				52AF610A2195917400232132 /* SPActivityIndicatorBallGridPulseAnimation.m in Sources */,
+				52AF61212195917400232132 /* SPActivityIndicatorNineDotsAnimation.m in Sources */,
+				52AF6124219591B400232132 /* SPActivityIndicatorView.m in Sources */,
+				52AF611E2195917400232132 /* SPActivityIndicatorBallZigZagAnimation.m in Sources */,
+				52AF61162195917400232132 /* SPActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
+				52AF61072195917400232132 /* SPActivityIndicatorBallGridBeatAnimation.m in Sources */,
+				52AF611C2195917400232132 /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
+				52AF61192195917400232132 /* SPActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
+				52AF61122195917400232132 /* SPActivityIndicatorBallTrianglePathAnimation.m in Sources */,
+				52AF61102195917400232132 /* SPActivityIndicatorBallBeatAnimation.m in Sources */,
+				52AF61172195917400232132 /* SPActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
+				52AF611B2195917400232132 /* SPActivityIndicatorThreeDotsAnimation.m in Sources */,
+				52AF610C2195917400232132 /* SPActivityIndicatorTripleRingsAnimation.m in Sources */,
+				52AF61152195917400232132 /* SPActivityIndicatorRotatingSandglassAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +686,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP8K63J94Y;
 				INFOPLIST_FILE = SPActivityIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP8K63J94Y;
 				INFOPLIST_FILE = SPActivityIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
