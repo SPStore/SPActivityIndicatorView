@@ -39,9 +39,7 @@
     opacityAnimaton.keyTimes = @[@0, @0.5, @1];
     opacityAnimaton.values = @[@1, @0.3, @1];
     opacityAnimaton.duration = duration;
-    
-    
-    
+        
     
     CAAnimationGroup *animationGroup = [self createAnimationGroup];;
     animationGroup.animations = @[scaleAnimation, opacityAnimaton];

@@ -13,6 +13,7 @@
 #import "SPActivityIndicatorFiveDotsAnimation.h"
 #import "SPActivityIndicatorRotatingSquaresAnimation.h"
 #import "SPActivityIndicatorDoubleBounceAnimation.h"
+#import "SPActivityIndicatorRippleAnimation.h"
 #import "SPActivityIndicatorTwoDotsAnimation.h"
 #import "SPActivityIndicatorThreeDotsAnimation.h"
 #import "SPActivityIndicatorBallPulseAnimation.h"
@@ -31,6 +32,7 @@
 #import "SPActivityIndicatorBallBeatAnimation.h"
 #import "SPActivityIndicatorLineScalePulseOutAnimation.h"
 #import "SPActivityIndicatorLineScalePulseOutRapidAnimation.h"
+#import "SPActivityIndicatorLineJumpUpAndDownAnimation.h"
 #import "SPActivityIndicatorBallScaleRippleAnimation.h"
 #import "SPActivityIndicatorBallScaleRippleMultipleAnimation.h"
 #import "SPActivityIndicatorTriangleSkewSpinAnimation.h"
@@ -41,11 +43,13 @@
 #import "SPActivityIndicatorTripleRingsAnimation.h"
 #import "SPActivityIndicatorCookieTerminatorAnimation.h"
 #import "SPActivityIndicatorBallSpinFadeLoader.h"
+#import "SPActivityIndicatorBallLoopScaleAnimation.h"
 #import "SPActivityIndicator3DotsExchangePositionAnimation.h"
 #import "SPActivityIndicatorRotaingCurveEaseOutAnimation.h"
 #import "SPActivityIndicatorLoadingSuccessAnimation.h"
 #import "SPActivityIndicatorLoadingFailAnimation.h"
 #import "SPActivityIndicatorBallRotaingAroundBallAnimation.h"
+#import "SPActivityIndicator3DotsFadeAnimation.h"
 
 static const CGFloat kSPActivityIndicatorDefaultSize = 40.0f;
 
@@ -93,7 +97,7 @@ static const CGFloat kSPActivityIndicatorDefaultSize = 40.0f;
 #pragma mark Methods
 
 - (void)commonInit {
-    self.userInteractionEnabled = NO;
+    self.userInteractionEnabled = YES;
     self.hidden = YES;
     
     _animationLayer = [[CALayer alloc] init];
@@ -182,6 +186,8 @@ static const CGFloat kSPActivityIndicatorDefaultSize = 40.0f;
             return [[SPActivityIndicatorRotatingSquaresAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeDoubleBounce:
             return [[SPActivityIndicatorDoubleBounceAnimation alloc] init];
+        case SPActivityIndicatorAnimationTypeRippleAnimation:
+            return [[SPActivityIndicatorRippleAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeTwoDots:
             return [[SPActivityIndicatorTwoDotsAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeThreeDots:
@@ -214,10 +220,14 @@ static const CGFloat kSPActivityIndicatorDefaultSize = 40.0f;
             return [[SPActivityIndicatorBallPulseSyncAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeBallBeat:
             return [[SPActivityIndicatorBallBeatAnimation alloc] init];
+        case SPActivityIndicatorAnimationType3DotsFadeAnimation:
+            return [[SPActivityIndicator3DotsFadeAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeLineScalePulseOut:
             return [[SPActivityIndicatorLineScalePulseOutAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeLineScalePulseOutRapid:
             return [[SPActivityIndicatorLineScalePulseOutRapidAnimation alloc] init];
+        case SPActivityIndicatorAnimationTypeLineJumpUpAndDownAnimation:
+            return [[SPActivityIndicatorLineJumpUpAndDownAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeBallScaleRipple:
             return [[SPActivityIndicatorBallScaleRippleAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeBallScaleRippleMultiple:
@@ -238,6 +248,8 @@ static const CGFloat kSPActivityIndicatorDefaultSize = 40.0f;
             return [[SPActivityIndicatorCookieTerminatorAnimation alloc]init];
         case SPActivityIndicatorAnimationTypeBallSpinFadeLoader:
             return [[SPActivityIndicatorBallSpinFadeLoader alloc] init];
+        case SPActivityIndicatorAnimationTypeBallLoopScale:
+            return [[SPActivityIndicatorBallLoopScaleAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeExchangePosition:
             return [[SPActivityIndicator3DotsExchangePositionAnimation alloc] init];
         case SPActivityIndicatorAnimationTypeRotaingCurveEaseOut:

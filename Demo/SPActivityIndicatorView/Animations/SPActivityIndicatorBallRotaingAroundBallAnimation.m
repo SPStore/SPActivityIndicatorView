@@ -76,12 +76,10 @@
     // 第1个圆的第二段轨迹，轨迹呈大圆
     UIBezierPath *ball1_path2 = [UIBezierPath bezierPath];
     [ball1_path2 addArcWithCenter:CGPointMake(_areaX+2*_circleSize, _layer.frame.size.height/2) radius:R startAngle:M_PI endAngle:2*M_PI clockwise:NO];
-    
     // 第1个圆的第三段轨迹，轨迹呈小圆
     UIBezierPath *ball1_path3 = [UIBezierPath bezierPath];
     [ball1_path3 addArcWithCenter:centerBall2 radius:r startAngle:0 endAngle:M_PI clockwise:NO];
     [ball1_path2 appendPath:ball1_path3];
-    
     [ball1_path1 appendPath:ball1_path2];
     
     // 第1个圆的动画
@@ -92,7 +90,7 @@
     keyAnimation1.calculationMode = kCAAnimationCubic;
     keyAnimation1.repeatCount = 1;
     keyAnimation1.duration = 1.4;
-    keyAnimation1.autoreverses = NO;
+    keyAnimation1.autoreverses = YES;
     keyAnimation1.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     [_circle1 addAnimation:keyAnimation1 forKey:@"rotation1"];
     
@@ -100,16 +98,13 @@
     UIBezierPath *ball3_path1 = [UIBezierPath bezierPath];
     [ball3_path1 moveToPoint:centerBall3];
     [ball3_path1 addLineToPoint:CGPointMake(_areaX+_areaSize.width-_circleRadius, _layer.frame.size.height/2)];
-    
     // 第3个圆的第二段轨迹，轨迹呈大圆
     UIBezierPath *ball3_path2 = [UIBezierPath bezierPath];
     [ball3_path2 addArcWithCenter:CGPointMake(_areaX+3*_circleSize, _layer.frame.size.height/2) radius:R startAngle:0 endAngle:M_PI clockwise:NO];
-    
     // 第3个圆的第三段轨迹，轨迹呈小圆
     UIBezierPath *ball3_path3 = [UIBezierPath bezierPath];
     [ball3_path3 addArcWithCenter:centerBall2 radius:r startAngle:M_PI endAngle:2*M_PI clockwise:NO];
     [ball3_path2 appendPath:ball3_path3];
-    
     [ball3_path1 appendPath:ball3_path2];
     
     // 第3个圆的动画
@@ -120,7 +115,7 @@
     keyAnimation3.calculationMode = kCAAnimationCubic;
     keyAnimation3.repeatCount = 1;
     keyAnimation3.duration = 1.4;
-    keyAnimation3.autoreverses = NO;
+    keyAnimation3.autoreverses = YES;
     keyAnimation3.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     [_circle3 addAnimation:keyAnimation3 forKey:@"rotation3"];
     
@@ -161,7 +156,7 @@
     animation.toValue = @0.7;
     animation.repeatCount = 1;
     animation.duration = 0.3;
-    animation.autoreverses = NO;
+    animation.autoreverses = YES;
     animation.removedOnCompletion = NO;
     animation.fillMode = kCAFillModeForwards;
     return animation;

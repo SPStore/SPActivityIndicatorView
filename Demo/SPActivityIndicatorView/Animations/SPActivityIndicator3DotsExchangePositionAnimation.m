@@ -33,10 +33,10 @@
     CALayer *circle2 = [layer.sublayers objectAtIndex:1];
     CALayer *circle3 = [layer.sublayers objectAtIndex:2];
     UIColor *circle1Color = [tintColor colorWithAlphaComponent:1];
-    UIColor *circle2Color = [tintColor colorWithAlphaComponent:2.0/3.0];
-    UIColor *circle3Color = [tintColor colorWithAlphaComponent:1.0/3.0];
+    UIColor *circle2Color = [tintColor colorWithAlphaComponent:0.6];
+    UIColor *circle3Color = [tintColor colorWithAlphaComponent:0.3];
     
-    CGPoint otherRoundCenter1 = CGPointMake(oX + circleSize + circlePadding*0.5, layer.bounds.size.height*0.5);
+    CGPoint otherRoundCenter1 = CGPointMake(oX+circleSize+circlePadding*0.5, layer.bounds.size.height*0.5);
     CGPoint otherRoundCenter2 = CGPointMake(oX+circleSize*2+circlePadding+circlePadding*0.5, layer.bounds.size.height*0.5);
     
     //圆1的路径

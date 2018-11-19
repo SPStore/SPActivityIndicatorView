@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SPActivityIndicatorAnimationProtocol.h"
 
 typedef NS_ENUM(NSUInteger, SPActivityIndicatorAnimationType) {
     SPActivityIndicatorAnimationTypeNineDots,
@@ -14,6 +15,7 @@ typedef NS_ENUM(NSUInteger, SPActivityIndicatorAnimationType) {
     SPActivityIndicatorAnimationTypeFiveDots,
     SPActivityIndicatorAnimationTypeRotatingSquares,
     SPActivityIndicatorAnimationTypeDoubleBounce,
+    SPActivityIndicatorAnimationTypeRippleAnimation,
     SPActivityIndicatorAnimationTypeTwoDots,
     SPActivityIndicatorAnimationTypeThreeDots,
     SPActivityIndicatorAnimationTypeBallPulse,
@@ -30,8 +32,10 @@ typedef NS_ENUM(NSUInteger, SPActivityIndicatorAnimationType) {
     SPActivityIndicatorAnimationTypeBallScaleMultiple,
     SPActivityIndicatorAnimationTypeBallPulseSync,
     SPActivityIndicatorAnimationTypeBallBeat,
+    SPActivityIndicatorAnimationType3DotsFadeAnimation,
     SPActivityIndicatorAnimationTypeLineScalePulseOut,
     SPActivityIndicatorAnimationTypeLineScalePulseOutRapid,
+    SPActivityIndicatorAnimationTypeLineJumpUpAndDownAnimation,
     SPActivityIndicatorAnimationTypeBallScaleRipple,
     SPActivityIndicatorAnimationTypeBallScaleRippleMultiple,
     SPActivityIndicatorAnimationTypeTriangleSkewSpin,
@@ -42,6 +46,7 @@ typedef NS_ENUM(NSUInteger, SPActivityIndicatorAnimationType) {
     SPActivityIndicatorAnimationTypeTripleRings,
     SPActivityIndicatorAnimationTypeCookieTerminator,
     SPActivityIndicatorAnimationTypeBallSpinFadeLoader,
+    SPActivityIndicatorAnimationTypeBallLoopScale,
     SPActivityIndicatorAnimationTypeExchangePosition,
     SPActivityIndicatorAnimationTypeRotaingCurveEaseOut,
     SPActivityIndicatorAnimationTypeLoadingSuccess,
@@ -60,6 +65,8 @@ typedef NS_ENUM(NSUInteger, SPActivityIndicatorAnimationType) {
 @property (nonatomic) CGFloat size;
 
 @property (nonatomic, readonly) BOOL animating;
+
++ (id<SPActivityIndicatorAnimationProtocol>)activityIndicatorAnimationForAnimationType:(SPActivityIndicatorAnimationType)type;
 
 - (void)startAnimating;
 - (void)stopAnimating;
